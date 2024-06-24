@@ -1,0 +1,47 @@
+html {
+  background-color: bisque;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: lightskyblue;
+  color: gray;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a.left {
+float: left;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*not sure if the following works or does a change*/
+{
+  box-sizing: border-box; 
+}
+
+row {
+  display: flex;
+  flex-wrap: wrap;
+}
