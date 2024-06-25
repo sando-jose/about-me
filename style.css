@@ -1,47 +1,38 @@
-html {
-  background-color: bisque;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-  padding: 40px;
-  text-align: center;
-  background: lightskyblue;
-  color: gray;
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
 }
 
-h1 {
-  font-size: 40px;
-}
-
-nav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-nav a {
-  float: right;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
+a {
   text-decoration: none;
+  color: #333;
 }
 
-nav a.left {
-float: left;
+ul {
+  list-style: none;
 }
 
-nav a:hover {
-  background-color: #ddd;
-  color: black;
+img {
+  max-width: 100%;
 }
 
-/*not sure if the following works or does a change*/
-{
-  box-sizing: border-box; 
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-row {
-  display: flex;
-  flex-wrap: wrap;
+.container-sm {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
