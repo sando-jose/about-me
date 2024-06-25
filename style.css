@@ -76,6 +76,13 @@ img {
   height: 550px;
 }
 
+.hero .portfolio {
+  background: url("../images/projectsbg.png") no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  height: 550px;
+}
+
 /* Utility Classes */
 .container {
   max-width: 1100px;
@@ -90,6 +97,12 @@ img {
 }
 
 .about {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.portfolio {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 15px;
